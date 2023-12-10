@@ -47,11 +47,6 @@ body {
 }
 
 .container {
-  /* max-width: 1158px; */
-  /* padding: 0 15px;
-  margin: 0 auto; */
-  /* padding-left: 0;
-  padding-right: 0; */
     max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
@@ -97,7 +92,6 @@ img {
     .section{
       padding:96px ;
     }
-  
     .mobile-open-btn{
         display: flex;
         align-items: center;
@@ -139,12 +133,9 @@ img {
   
 .page-navigation{
   align-items: center;
-  /* padding-bottom: 17,5px; */
 }
     .hero{
     width: 100%;
-
-    
     }
     .main-title{
         align-items: center;  
@@ -293,7 +284,24 @@ img {
     gap: 40px;
   }
 }
-
+.burger-contacts-mail{
+color: #434455;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;/* 120% */
+letter-spacing: 0.02em;
+font-style: normal;
+}
+.burger-contacts-tel{
+  color: #4D5AE5;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;/* 120% */
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
 /* ============== /HEADER STYLES ============== */
 /* ============== HERO STYLES ============== */
 .hero {
@@ -370,15 +378,6 @@ img {
   }
 }
 }
-
-
-  /* @media (min-device-pixel-ratio: 2), */
-/* (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile-pc@2x.jpg);
-}
-} */
 
 @media screen and (min-width: 320px) {
   .hero{
@@ -485,6 +484,25 @@ img {
   display: flex;
   gap:40px;
 }
+.burger-link{
+color: #2E2F42;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.burger-link-current{
+color: #404BBF;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
 /* ============== /HERO STYLES ============== */
 /* ============== BENEFITS STYLES ============== */
 .benefits-list {
